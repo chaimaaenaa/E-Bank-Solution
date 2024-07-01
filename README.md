@@ -28,24 +28,21 @@ La digitalisation des services bancaires est devenue incontournable pour offrir 
 
 ### Backend
 
-1. Clonez le dépôt
-    ```bash
-    git clone https://github.com/votre-utilisateur/e-bank-backend.git
-    ```
 
-2. Accédez au répertoire du projet
+
+ Accédez au répertoire du projet
     ```bash
     cd e-bank-backend
     ```
 
-3. Configurez la base de données dans `application.properties`
+ Configurez la base de données dans `application.properties`
     ```properties
     spring.datasource.url=jdbc:mysql://localhost:3306/ebank
     spring.datasource.username=root
     spring.datasource.password=root
     ```
 
-4. Compilez et démarrez le backend
+ Compilez et démarrez le backend
     ```bash
     mvn clean install
     mvn spring-boot:run
@@ -53,25 +50,7 @@ La digitalisation des services bancaires est devenue incontournable pour offrir 
 
 ### Frontend
 
-1. Clonez le dépôt
-    ```bash
-    git clone https://github.com/votre-utilisateur/e-bank-frontend.git
-    ```
 
-2. Accédez au répertoire du projet
-    ```bash
-    cd e-bank-frontend
-    ```
-
-3. Installez les dépendances
-    ```bash
-    npm install
-    ```
-
-4. Démarrez l'application Angular
-    ```bash
-    ng serve
-    ```
 
 ## Utilisation
 
