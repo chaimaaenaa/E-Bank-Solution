@@ -1,7 +1,7 @@
-package ebank.service;
+package com.example.service;
 
-import ebank.entity.Transaction;
-import ebank.repository.TransactionRepository;
+import com.example.entity.Transaction;
+import com.example.repository.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

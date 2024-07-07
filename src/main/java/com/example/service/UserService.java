@@ -1,4 +1,4 @@
-package ebank.service;
+package com.example.service;
 
 import com.example.entity.User;
 import ebank.repository.UserRepository;

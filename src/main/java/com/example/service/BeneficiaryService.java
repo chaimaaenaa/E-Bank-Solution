@@ -1,7 +1,7 @@
-package ebank.service;
+package com.example.service;
 
-import ebank.entity.Beneficiary;
-import ebank.repository.BeneficiaryRepository;
+import com.example.entity.Beneficiary;
+import com.example.repository.BeneficiaryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
