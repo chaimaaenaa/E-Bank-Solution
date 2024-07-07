@@ -1,6 +1,6 @@
 package ebank.controller;
 
-import ebank.entity.Account;
+import com.example.entity.Account;
 import ebank.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
